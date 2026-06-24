@@ -1,14 +1,16 @@
 # PSX_ENGINE
 
-A low-level rendering engine targeting the original PlayStation, built using the official **Psy-Q SDK**.
+A collection of low-level rendering experiments on the original PlayStation, built using the official **Psy-Q SDK**.
 
-## Features
-- Renders text/fonts on screen
+> Note: despite the repo name, this isn't a reusable engine — it's a set of standalone experiments exploring fixed-function, hardware-constrained graphics programming on real retro console hardware.
+
+## Experiments
+- Text/font rendering on screen
 - 3D cube rendering
 - 2D geometry primitives
 
 ## Structure
-The project includes both a **C** and a **C++** implementation (`C/` and `CPP/` folders), each with its own build script (`C.BAT`, `CPP.BAT`).
+Includes both a **C** and a **C++** version (`C/` and `CPP/` folders), each with its own build script (`C.BAT`, `CPP.BAT`).
 
 ## Tech
 - **Platform:** Sony PlayStation (PSX)
@@ -16,4 +18,4 @@ The project includes both a **C** and a **C++** implementation (`C/` and `CPP/` 
 - **Languages:** C, C++
 
 ## Why
-Exploration of fixed-function, hardware-constrained graphics programming on real retro console hardware — understanding the PSX's GTE (Geometry Transformation Engine) and rendering pipeline from the ground up.
+Understanding the PSX's rendering pipeline and hardware constraints from the ground up, without any modern abstraction layer.
